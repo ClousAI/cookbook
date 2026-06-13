@@ -1,0 +1,14 @@
+# Cookbook dependencies — intentionally minimal.
+# Every Python recipe runs on just `requests`. Two recipes optionally use extras
+# (noted inline); install them only if you run those.
+
+requests>=2.31,<3
+
+# Optional, only for the webhook receiver in 07-monitor-webhook (a tiny HTTP server).
+# The receiver uses the Python standard library by default; Flask is offered as an
+# alternative in that recipe's README.
+# flask>=3.0
+
+# Optional, only for the OpenAI-client variant in 06-earnings-qa / 09-agent-integration.
+# The recipes also include a pure-`requests` variant that needs nothing extra.
+# openai>=1.30
