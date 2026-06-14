@@ -60,7 +60,7 @@ Every recipe is self-contained, reads your key from `$CLOUS_API_KEY`, and ships 
   `?output_schema=` (a JSON object mapping output keys to source fields).
 - **AI:** `POST /v1/answer` (grounded + cited) and an OpenAI-compatible
   `POST /v1/chat/completions` (model `clous`).
-- **MCP:** an MCP server ships as [`@clous/mcp`](https://www.npmjs.com/package/@clous/mcp)
+- **MCP:** an MCP server ships as [`@clousai/mcp`](https://www.npmjs.com/package/@clousai/mcp)
   for agent/tool use — see recipe 09.
 
 Full reference lives at **[docs.clous.ai](https://docs.clous.ai)**.

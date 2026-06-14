@@ -32,7 +32,7 @@ OpenAI-style function tools. `tools_demo.py` ships:
 
 ## C. Clous over MCP — `mcp.config.json`
 
-The Clous **[MCP server](https://www.npmjs.com/package/@clous/mcp)** exposes
+The Clous **[MCP server](https://www.npmjs.com/package/@clousai/mcp)** exposes
 filings, financials, insider trades, 13F, Form D, full-text search, and more as
 MCP tools — for Claude Desktop, Cursor, or any MCP client. No code; just config:
 
@@ -41,7 +41,7 @@ MCP tools — for Claude Desktop, Cursor, or any MCP client. No code; just confi
   "mcpServers": {
     "clous": {
       "command": "npx",
-      "args": ["-y", "@clous/mcp"],
+      "args": ["-y", "@clousai/mcp"],
       "env": { "CLOUS_API_KEY": "clous_live_..." }
     }
   }
