@@ -1,16 +1,21 @@
+<div align="center">
+
 # Clous Cookbook
 
-Runnable, copy-pasteable recipes for the **[Clous](https://clous.ai) SEC/EDGAR API** —
-the fastest path from *curious* to *integrated*.
+**Runnable, copy-pasteable recipes for public data intelligence — the fastest path from *curious* to *integrated*.**
 
-Clous turns raw SEC EDGAR filings into one consistent, entity-resolved JSON API:
-filings, insider trades (Form 3/4/5), 13D/G ownership, 13F holdings, Form ADV
-advisers, Form D raises, XBRL financials, full-text search, a normalized
-**events feed**, **monitors + signed webhooks**, and a grounded, cited **AI answer**
-endpoint (plus an OpenAI-compatible `/v1/chat/completions`).
+Clous turns raw SEC EDGAR filings into one consistent, entity-resolved JSON API: filings, insider trades (Form 3/4/5), 13D/G ownership, 13F holdings, Form ADV advisers, Form D raises, XBRL financials, full-text search, a normalized **events feed**, **monitors + signed webhooks**, and a grounded, cited **AI answer** endpoint (plus an OpenAI-compatible `/v1/chat/completions`).
+
+[![Docs](https://img.shields.io/badge/docs-clous.ai-blue)](https://docs.clous.ai)
+[![Built for AI agents](https://img.shields.io/badge/built%20for-AI%20agents-6e56cf)](https://clous.ai)
+[![License: MIT](https://img.shields.io/badge/license-MIT-black)](./LICENSE)
+
+[clous.ai](https://clous.ai) · [docs.clous.ai](https://docs.clous.ai)
+
+</div>
 
 Every recipe is self-contained, reads your key from `$CLOUS_API_KEY`, and ships in
-**both Python and curl/bash** where it makes sense.
+**both Python and curl/bash** where it makes sense. **SEC/EDGAR is live today; Clous is expanding across public data.**
 
 ---
 
@@ -111,6 +116,21 @@ so you can read each script top-to-bottom without jumping around. To use the
 helper in your own project, just copy `_shared/clous.py` next to your code.
 
 ---
+
+## Part of the Clous platform
+
+Clous is **public data intelligence for AI agents** — entity-resolved signals from public records and the web, monitored in real time, delivered with citations. SEC/EDGAR is live today; expanding across public data.
+
+| | |
+| --- | --- |
+| **Website** | [clous.ai](https://clous.ai) |
+| **Docs** | [docs.clous.ai](https://docs.clous.ai) · [`llms.txt`](https://docs.clous.ai/llms.txt) |
+| **Recipes** | [`cookbook`](https://github.com/ClousAI/cookbook) ← you are here |
+| **SDKs** | [`clous-python`](https://github.com/ClousAI/clous-python) · [`clous-js`](https://github.com/ClousAI/clous-js) |
+| **MCP server** | [`Mcp`](https://github.com/ClousAI/Mcp) · hosted at [mcp.clous.ai](https://mcp.clous.ai) |
+| **Claude Code plugin** | [`claude-code-plugin`](https://github.com/ClousAI/claude-code-plugin) |
+| **Agent Skill** | [`skill`](https://github.com/ClousAI/skill) |
+| **Framework tools** | [`integrations`](https://github.com/ClousAI/integrations) (LangChain · LlamaIndex · OpenAI · Vercel AI · CrewAI) |
 
 ## License
 
